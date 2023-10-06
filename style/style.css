@@ -18,6 +18,26 @@
 * {
   margin: 0;
   padding: 0;
+/* Подключение шрифтов */
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(../font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(../font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(../font/Gilroy-Semibold.woff2);
+}
+
+/* Сброс стилей и общие стили */
+* {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
 }
 
